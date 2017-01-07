@@ -28,7 +28,7 @@ console.log();
 
 function coinCount () {
   //pluging in sum and displaying total
-  var sum = 5.44;
+  var sum = prompt("How much money do you have? I'll turn it into coins, I'm a reverse CoinStar!");
   var total = document.getElementById("total");
 
   total.innerHTML = total.innerHTML + "Total Dollar Amount : $" + sum;
